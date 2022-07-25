@@ -198,4 +198,4 @@ async def clear(ctx, amount=1000):
  
 
 
-bot.run("OTkwNTMyMzg5Mjc5MjY0Nzk4.GrAen5.1IPGOQr8mFjiZsGF_qOO0O4Ln3zpOXfNiDgivw")
+bot.run("OTkwNTMyMzg5Mjc5MjY0Nzk4.G336Yc.AmL1dbHqrbnoUmTyY4QxvhV8vQPPdKFWcQ-_50")
