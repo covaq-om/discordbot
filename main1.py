@@ -19,7 +19,6 @@ import fortnite_api
 import discord.errors
 import discord.voice_client
 import discord.ext.commands
-from webserver import keep_alive
 import discord.ext.tasks
 import discord.ext.commands.errors
 import discord.ext.commands.context
@@ -197,9 +196,6 @@ async def clear(ctx, amount=1000):
     time.sleep(1.3)
     await ctx.channel.purge(limit=amount)
  
-keep_alive()
-token = os.environ.get("DISCORD_TOKEN")
-bot.run(token)
 
 
-bot.run("MTAwMDY0MTI0ODU1NTcwODQzNw.G-8TSA.tm5bJN9JZ5q81FofdBiUU49P16z9L3gBVwPh2I")
+bot.run("OTkwNTMyMzg5Mjc5MjY0Nzk4.GrAen5.1IPGOQr8mFjiZsGF_qOO0O4Ln3zpOXfNiDgivw")
